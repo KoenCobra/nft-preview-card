@@ -1,0 +1,37 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+$soft: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+$mainBG: hsl(217, 54%, 11%);
+$cardBG: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+$font: "Outfit", sans-serif;
+
+body {
+  background-color: $mainBG;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: $cardBG;
+  width: 20rem;
+  padding: 1.8rem;
+  border-radius: 13px;
+
+  .card-img img {
+    width: 100%;
+    border-radius: 13px;
+    border-radius: 13px;
+  }
+}
